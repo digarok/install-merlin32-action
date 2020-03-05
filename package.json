@@ -1,0 +1,21 @@
+{
+  "name": "install-merlin32-action",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "ncc build dist/index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2",
+    "@actions/exec": "^1.0.1",
+    "@actions/io": "^1.0.1",
+    "@actions/tool-cache": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "@zeit/ncc": "^0.20.5",
+    "typescript": "^3.6.4"
+  }
+}
