@@ -16,7 +16,7 @@ function getDownloadURL(version: string): string {
     }
 }
 
-async function downloadMerlin(version: string) {
+async function downloadMerlin32(version: string) {
     let cachedToolpath = toolCache.find('merlin32', version);
     if (!cachedToolpath) {
         let downloadPath;
