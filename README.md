@@ -20,3 +20,6 @@ A Github Action for installing Merlin32 enabling 6502/65c02/65816 assembly in yo
 # About Merlin32
 Merlin32 is a disk image program originally by the amazing French team, Brutal Deluxe.  They are not involved with this Open Source version, but I do recommend you view [their site](http://brutaldeluxe.fr/products/crossdevtools/merlin32/) for more information on Merlin32 and their other incredible tools and releases.
 
+# Further Examples
+
+For a fully-integrated pipeline, see my example Apple II project here (https://github.com/digarok/apple2-assembly-github-actions-ci-example).
