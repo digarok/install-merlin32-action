@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "pack": "ncc build dist/index.js"
+    "package": "ncc build dist/index.js",
+    "all": "npm run build && npm run package"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
@@ -27,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/digarok/install-merlin32-action/issues"
   },
-  "homepage": "https://github.com/digarok/install-merlin32-action#readme"
+  "homepage": "https://github.com/digarok/install-merlin32-action#readme",
+  "keywords": []
 }
