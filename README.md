@@ -1,3 +1,4 @@
+![latest orkflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 # install-merlin32-action
 A Github Action for installing Merlin32 enabling 6502/65c02/65816 assembly in your workflows.
