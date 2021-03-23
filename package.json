@@ -17,5 +17,15 @@
     "@types/node": "^12.12.38",
     "@zeit/ncc": "^0.20.5",
     "typescript": "^3.6.4"
-  }
+  },
+  "description": "A Github Action for installing Merlin32 enabling 6502/65c02/65816 assembly in your workflows.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digarok/install-merlin32-action.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/digarok/install-merlin32-action/issues"
+  },
+  "homepage": "https://github.com/digarok/install-merlin32-action#readme"
 }
