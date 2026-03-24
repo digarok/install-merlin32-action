@@ -5,19 +5,17 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "package": "ncc build dist/index.js",
+    "package": "ncc build dist/index.js -o dist",
     "all": "npm run build && npm run package"
   },
   "dependencies": {
-    "@actions/core": "^1.9.1",
-    "@actions/exec": "^1.0.4",
-    "@actions/io": "^1.0.2",
-    "@actions/tool-cache": "^1.6.1"
+    "@actions/core": "^1.11.1",
+    "@actions/tool-cache": "^2.0.2"
   },
   "devDependencies": {
-    "@types/node": "^12.12.38",
-    "@zeit/ncc": "^0.20.5",
-    "typescript": "^3.6.4"
+    "@types/node": "^20.19.37",
+    "@vercel/ncc": "^0.38.4",
+    "typescript": "^6.0.2"
   },
   "description": "A Github Action for installing Merlin32 enabling 6502/65c02/65816 assembly in your workflows.",
   "repository": {
@@ -29,5 +27,8 @@
     "url": "https://github.com/digarok/install-merlin32-action/issues"
   },
   "homepage": "https://github.com/digarok/install-merlin32-action#readme",
-  "keywords": []
+  "keywords": [],
+  "overrides": {
+    "undici": "^7.0.0"
+  }
 }

@@ -2,7 +2,7 @@ name: 'install-merlin32-action'
 description: 'Github Action to set up Merlin32 Assembler'
 author: 'Dagen Brock'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'link'
