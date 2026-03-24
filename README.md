@@ -3,6 +3,15 @@
 # install-merlin32-action
 A Github Action for installing Merlin32 enabling 6502/65c02/65816 assembly in your workflows.
 
+# Building from source
+```
+npm install
+npm run build      # compile TypeScript
+npm run package    # bundle with ncc
+npm run all        # build + package
+```
+The bundled output is written to `dist/index.js`, which is the entry point used by the action.
+
 # Example usage
 ```
     # This will install Merlin32 on your Github Runner machine
