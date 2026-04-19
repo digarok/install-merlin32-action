@@ -36,7 +36,7 @@ async function downloadMerlin32(version: string) {
 async function run() {
     let version = core.getInput('version');
     if (!version) {
-        version = 'v1.1.8d';  // default
+        version = 'v1.1.10';  // default
     }
     
     console.log(`INPUTS - version '${version}'`);
